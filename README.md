@@ -10,6 +10,14 @@ Notifications microservice built with NestJS + Prisma (MySQL DB for test purpose
 $ yarn
 ```
 
+## Open API (Swagger)
+
+```bash
+$ yarn start:dev
+```
+
+Then, open your browser and go to http://localhost:3000/api
+
 ## Running the app
 
 ```bash
