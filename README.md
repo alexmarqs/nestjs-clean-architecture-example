@@ -22,24 +22,30 @@ Then, open your browser and go to http://localhost:3000/api
 
 ```bash
 # development
-$ npm run start
+$ yarn start
 
 # watch mode
-$ npm run start:dev
+$ yarn start:dev
 
 # production mode
-$ npm run start:prod
+$ yarn start:prod
+
+# run prisma migrations in dev mode
+$ yarn prisma:migrate:dev
+
+# open prisma studio
+$ yarn prisma:studio
 ```
 
 ## Test
 
 ```bash
 # unit tests
-$ npm run test
+$ yarn test
 
 # e2e tests
-$ npm run test:e2e
+$ yarn test:e2e
 
 # test coverage
-$ npm run test:cov
+$ yarn test:cov
 ```
