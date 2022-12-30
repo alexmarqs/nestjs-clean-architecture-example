@@ -25,11 +25,14 @@
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
+    "@nestjs/config": "2.2.0",
     "@nestjs/core": "^9.0.0",
+    "@nestjs/microservices": "9.2.1",
     "@nestjs/platform-express": "^9.0.0",
     "@nestjs/swagger": "6.1.4",
     "@prisma/client": "4.8.0",
     "helmet": "6.0.1",
+    "kafkajs": "2.2.3",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0"

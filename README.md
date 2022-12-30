@@ -10,6 +10,10 @@ Notifications microservice built with NestJS + Prisma (MySQL DB for test purpose
 $ yarn
 ```
 
+## Diagram
+
+![diagram](./docs/diagram.drawio.svg)
+
 ## Open API (Swagger)
 
 ```bash
@@ -17,6 +21,10 @@ $ yarn start:dev
 ```
 
 Then, open your browser and go to http://localhost:3000/api
+
+## Kafka
+
+We could use Docker (docker-compose) to run Kafka. However this time we will use Upstash, a Redis-like service (free tier) that also provides a Kafka instance. You can check it out here: https://upstash.com/
 
 ## Running the app
 
